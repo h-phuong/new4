@@ -1,0 +1,201 @@
+@charset "utf-8";
+/* CSS Document */
+*{box-sizing: border-box}
+.banner {
+	display:block;
+	width:100%;
+	height:auto;
+}
+
+.icon {
+  width: 40px;
+  height: 40px;
+  object-fit: contain; 
+  border-radius: 8px;   
+}
+
+.menu {
+  background-color: orange;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 15px;
+  margin-top: 3px;
+  margin-bottom: 30px;
+  flex-wrap: wrap;
+}
+
+.logo {
+  height: 40px;
+  margin-left: 100px;
+  text-align: center;
+}
+
+.nav-links {
+  display: flex;
+  gap: 5px ;
+}
+
+.nav-links a {
+  color: white;
+  text-decoration: none;
+  padding: 6px 4px;
+  font-size: 16px;
+  font-weight: bold;
+  margin-right: 60px;
+}
+
+.nav-links a:hover {
+  color: blue;
+ }
+
+.image-box {
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: center;     
+  row-gap: 50px;
+  column-gap: 30px;
+  padding: 20px;
+  max-width: 1200px;
+  box-sizing: border-box;
+  margin: 0 auto;
+  flex-wrap: wrap;
+}
+
+.product {
+  width: 22%;             
+  padding: 10px;
+  border: 1px solid #ccc;  
+  border-radius: 10px;     
+  text-align: center;      
+  background-color: #f9f9f9; 
+}
+.product:hover {
+  transform: scale(1.06);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+  transition: all 0.3s ease;
+}
+
+.product-image {
+  width: 100%;              
+  height: auto;             
+  border-radius: 10px;     
+  object-fit: cover;       
+}
+
+.product-name {
+  color: blue;
+  font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+  font-size: 18px;          
+  font-weight: bold;        
+  margin: 10px 0;          
+}
+
+.price {
+  font-size: 16px;          
+  color: red;              
+}
+.footer {
+  background-color: orange;
+  color: white;
+  font-size: 16px;
+  font-weight: bold;
+  font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+  text-align: center;
+  padding: 1px 1px;
+  margin-top: 30px; 
+}
+html, body {
+  height: 100%;
+  margin: 0;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+}
+
+.footer {
+  margin-top: auto;
+}
+
+/* xong trc phần index.html */
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+  margin-left: 100px;
+}
+.w-40 {
+	width: 40%;
+	padding: 15px;
+	float: left;
+}
+.w-60 {
+	width: 60%;
+	padding: 15px;
+	float: left;
+}
+.text-lien-he {
+	color: blue;
+	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+	margin-bottom: 5px;
+}
+.from-control {
+	padding: 8px;
+	margin: 10px;
+	width: 100%;
+}
+textarea.from-control{
+	height: 150px;
+}
+button[type="submit"] {
+  background-color: blue;
+  color: white;
+  font-weight: bold;
+  border: none;
+  padding: 10px 20px;
+  font-size: 12px;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  margin-top: 2px;
+  margin-left: 10px;
+}
+button[type="submit"]:hover {
+  background-color: red;
+}
+.map-border{
+	width:100%;
+	min-height: 300px;
+	border: 1px solid #ccc;
+	border-radius: 10px;
+	padding: 15px;
+	margin-bottom: 10px;
+	background-color: #F5F5F5;
+	transition: all 0.3s ease;
+}
+
+.map-border:hover {
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
+  transform: scale(1.02);
+}
+
+.contact-info {
+  padding: 15px 20px;
+  margin-top: 10px;
+  font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+}
+
+.contact-info h4 {
+  color: blue;
+  font-size: 16px;
+  margin-bottom: 12px;
+}
+
+.contact-info p {
+  font-size: 14px;
+}
+/* xong phần lienhe.html */
+
+
